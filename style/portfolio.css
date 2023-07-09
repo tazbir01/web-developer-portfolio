@@ -16,7 +16,8 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
-.button-contact{
+
+.button-contact {
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     background-color: white;
@@ -69,9 +70,11 @@ header {
     padding: 30px 30px 0px 0px;
     justify-content: space-around;
 }
-.banner-container{
+
+.banner-container {
     padding-left: 200px;
 }
+
 .banner-greeting {
     color: #474747;
     font-size: 25px;
@@ -90,7 +93,50 @@ header {
 }
 
 .profile-pic {
-    height: 400px;
-    width: 350px;
+    height: 450px;
+    width: 400px;
     padding-left: 300px;
+}
+/* this is main */
+main{
+    max-width: 1140px ;
+    margin: 0 auto;
+}
+
+/* this is for about section */
+
+.about {
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.about-description {
+    color: #757575;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-size: 15px;
+    margin-bottom: 0;
+    color:  #757575;
+}
+.info-description:{
+    margin-top: 0;
 }
