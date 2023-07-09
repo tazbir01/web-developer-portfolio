@@ -261,6 +261,7 @@ textarea {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 200px 10px 30px;
+    border: 0;
 }
 .button-form{
     margin-top: 24px;
