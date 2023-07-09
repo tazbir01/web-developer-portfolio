@@ -1,33 +1,41 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* shared style */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.button-primary{
+
+.button-primary {
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
     border: 0;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 700;
     padding: 15px 35px;
 }
+.button-contact{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    font-weight: 700;
+}
 
 /* this is for nav */
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-around;
 }
 
-.nav-container > ul {
+.nav-container>ul {
     display: flex;
     align-items: center;
-    
+
 }
 
-.nav-title{
+.nav-title {
     font-size: 45px;
     font-weight: 800;
     color: #181818;
@@ -39,22 +47,50 @@ body{
 
 }
 
-a{
+a {
     text-decoration: none;
     color: #474747;
 }
+
 /* this is for header */
 
-header{
-    background-color: #FFF8F3 ;
+header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: 518px 318px, 70px 500px;
+
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
-    padding: 30px 30px 30px 130px;
+    padding: 30px 30px 0px 0px;
+    justify-content: space-around;
 }
-.profile-pic{
-    height: 350px;
+.banner-container{
+    padding-left: 200px;
+}
+.banner-greeting {
+    color: #474747;
+    font-size: 25px;
+    /* font-weight: 500; */
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.profile-pic {
+    height: 400px;
     width: 350px;
+    padding-left: 300px;
 }
